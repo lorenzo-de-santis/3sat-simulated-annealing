@@ -9,9 +9,11 @@ This project studies the 3-SAT problem as a Constraint Satisfaction Problem (CSP
 - Empirical analysis of phase transition in satisfiability
 
 ## Results
-- Identification of algorithmic threshold around M/N ≈ 4
-- Sharp phase transition in solvability probability
-- Decreasing performance with increasing constraint density
+
+* Identification of an empirical algorithmic threshold at **M/N ≈ 4.05**, close to the theoretical value (~4.25)
+* Clear **phase transition behavior**: solvability drops sharply as constraint density increases
+* High solvability (P ≈ 1) for low M/N, followed by a rapid transition to unsatisfiable regimes
+* Performance degradation due to increasingly complex energy landscape with many local minima
 
 ## Structure
 - `src/` → core implementation
