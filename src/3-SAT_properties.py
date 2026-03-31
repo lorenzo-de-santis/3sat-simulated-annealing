@@ -59,7 +59,7 @@ mcmc_steps = 3000
 beta0 = 0.01
 beta1 = 4.0
 
-# Initialize data structures to store results
+# Initialize data structures to store the results
 results = {}            # Dictionary to store probabilities for each N
 
 for N in N_values:
