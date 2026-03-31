@@ -15,7 +15,7 @@ This project studies the 3-SAT problem as a Constraint Satisfaction Problem (CSP
 
 ## Structure
 - `src/` → core implementation
-- `report/` → theoretical analysis and results
+- `report.pdf` → theoretical analysis and results
 
 ## Tech Stack
 Python · NumPy · Optimization · Simulated Annealing
